@@ -1,0 +1,148 @@
+@-webkit-keyframes move{
+	0%{
+		background-position: 0 0;
+	}
+	100%{
+		background-position: -1280px 0;
+	}
+}
+@-moz-keyframes move{
+	0%{
+		background-position: 0 0;
+	}
+	100%{
+		background-position: -1280px 0;
+	}
+}
+@font-face {
+	font-family: 'icons';
+	src:url('fonts/ElegantIcons.eot');
+	src:url('fonts/ElegantIcons.eot?#iefix') format('embedded-opentype'),
+		url('fonts/ElegantIcons.woff') format('woff'),
+		url('fonts/ElegantIcons.ttf') format('truetype'),
+		url('fonts/ElegantIcons.svg#ElegantIcons') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+#all-content{
+	width: 100%;
+	overflow: hidden;
+}
+#content{
+	position: relative;
+	margin-top: 30px;
+	margin-bottom: 80px;
+	min-height: 200px;
+}
+#content::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+/* 菜单 */
+.p-center-nav{
+	width: 200px;
+	float: left;
+	border-radius: 6px;
+	overflow: hidden;
+}
+.p-center-nav h2{
+	font:bold 1.6em/40px 'Microsoft Yahei';
+	color: #8c6033;
+	text-align: center;
+	text-shadow: 1px 1px 1px rgba(255, 255, 255, .2);
+	background:#F4ECDC;
+background: -moz-linear-gradient(top, #F4ECDC, #E5D3AE); 
+background: -webkit-gradient(linear,top,from(#F4ECDC),to(#E5D3AE));
+background: -webkit-linear-gradient(top, #F4ECDC, #E5D3AE);
+background: -o-linear-gradient(top, #F4ECDC, #E5D3AE);
+}
+.p-center-nav ul li a{
+	display: block;
+	font: 1.4em/40px 'Microsoft Yahei','icons';
+	background: #f5efe3;
+	color: #a79267;
+	border-bottom: 1px solid #f1ece3;
+}
+.p-center-nav ul li a:hover{
+	background: #a79267;
+	color: #fff;
+	border-bottom: 1px solid #a79267;
+}
+.p-center-nav ul li a span{
+	float: left;
+	width: 50px;
+	text-align: right;
+	padding-right: 10px;
+	font-size: 16px;
+}
+/* 模块 */
+.p-center-item{
+	position: relative;
+	width: 850px;
+	float: right;
+}
+.p-center-item>div{
+	display: none;
+	width: 100%;
+	background: #f5efe3;
+	border-radius: 6px;
+	opacity: 0;
+	filter:alpha(opacity=0);
+	position: absolute;
+	left: 1000px;
+	top:0px;
+}
+
+.p-center-item h2{
+	overflow: hidden;
+	height: 80px;
+	width: auto;
+	font: 2.5em/80px 'Microsoft Yahei';
+	color: #999;
+}
+.p-center-item h2 span{
+	float: left;
+	text-align: right;
+	width: 80px;
+	padding-right: 20px;
+	font: 50px/80px 'Microsoft Yahei','icons';
+	color: #e5d1ba;
+}
+.jiantou{
+	display: block;
+	border-right: 20px solid #f5efe3;
+	border-top: 20px solid transparent;
+	border-bottom: 20px solid transparent;
+	position: absolute;
+	left: -20px;
+}
+#myinfo .jiantou{
+	top: 40px;
+}
+#myorder .jiantou{
+	top: 81px;
+}
+#mycart .jiantou{
+	top: 122px;
+}
+#mypass .jiantou{
+	top: 163px;
+}
+.item-content{
+	height: 200px;
+}
+
+/* myinfo */
+
+
+
+
+
+
+
+
+
+/* myorder */
+/* mycart */
+/* mypass */
